@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import Header from './Components/Header'
-import Profile from './Components/Profile'
+import { Footer } from "flowbite-react";
+import About from "./Components/About";
+import Background from "./Components/Background";
+import Contact from "./Components/Contact";
+import Header from "./Components/Header"
+import Projects from "./Components/Projects";
 
 const App = () => {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Header />
-      <Profile />
+     <Header />
+     <About />
+     <Background />
+     <Projects />
+     <Contact />
+     <Footer />
     </>
   )
 }
 
-export default App
+export default App;
